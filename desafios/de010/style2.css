@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Android';
+    src: url("fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #D8FFDB;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #015958, #023535);
+    padding: 5px;
+    margin: 0px;
+    box-shadow: 0px 2px 8px rgb(70, 70, 70);
+}
+
+header > h1 {
+    text-shadow: 2px 2px 3px rgb(70, 70, 70);
+}
+
+header > nav {
+    text-align: justify;
+    margin: 30px 10px 10px 10px;
+}
+
+nav > a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: white;
+    margin: 0px 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgb(70, 70, 70);
+}
+
+main > h2 {
+    font-family: Android;
+    color: #008F8C;
+}
+
+main > h3 {
+    font-family: Android;
+    background-image: linear-gradient(to right, #C7FFED, rgba(255, 255, 255, 0));
+    color: #008F8C;
+}
+
+mark {
+    background-color: transparent;
+    color: #015958;
+    font-weight: bold;
+}
+
+a {
+    background-color: transparent;
+    color: #015958;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main > p > a::after, aside > p > a::after {
+    content: '🔗';
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+aside {
+    background-color: #C7FFED;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 8px rgba(70, 70, 70, 0.603);
+}
+
+aside > h3 {
+    color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #023535;
+}
+
+aside > div > p{
+    text-decoration: underline;
+}
+
+footer > p {
+    color: #00aca9;
+    background-color: #005857;
+}
+
+footer > p > mark {
+    background-color: transparent;
+    color: white;
+}

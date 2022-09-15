@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 3px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 10px 50px;
+            box-shadow: 2px 2px 5px rgb(66, 66, 66);
+        }
+
+        article > h2 {
+            text-align: center;
+        }
+
+        article > aside {
+            background-color: rgb(156, 156, 156);
+            border-radius: 5px;
+            font-style: italic;
+            box-shadow: 2px 2px 5px rgb(66, 66, 66);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 10px 5px;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site.</h1>
+        <nav>
+            <a href="#">Link.</a>
+            <a href="#">Link.</a>
+            <a href="#">Link.</a>
+            <a href="#">Link.</a>
+            <a href="#">Link.</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus cupiditate dicta numquam ratione facilis quod dolorum ipsum adipisci. Iste rerum beatae qui quo praesentium repellendus aliquam minima facere omnis accusamus?</p>
+                <aside>
+                    <p>Artigo produzido por José da Silva.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+         <p>Desenvolvido por kaeton produções limitadas B).</p>
+    </footer>
+</body>
+</html>
